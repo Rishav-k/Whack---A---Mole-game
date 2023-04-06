@@ -1,0 +1,49 @@
+html {
+    font-size: 35px;
+    background: #d1eadf;
+}
+.up{
+    border: solid;
+    border-color: black;
+    border-width: 5px;
+}
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    line-height: 1;
+    margin-bottom: 0;
+}
+button{
+    border: 0px;
+    border-radius: 3px;
+    padding: 10px 20px;
+    background-color: rgb(18, 156, 18);
+}
+.score {
+    background:rgb(23, 167, 95);
+    padding: 0 30px;
+    border-radius: 16px;
+    color: #fff;
+    margin-left: 15px;
+}
+.game{
+    margin:50px auto;
+    width : 600px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.hole{
+  width : 120px ;
+  height : 100px;
+  margin: 20px 20px;
+  /* display: flex;
+  justify-content: space-around; */
+  background-color: rgb(140, 64, 64);
+}
